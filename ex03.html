@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ex03</title>
+
+<style type="text/css">
+	
+	.div01 {
+		border: 3px solid black;
+		width: 60%;
+		margin: auto;
+	}
+	
+	.div01 header{
+		border-bottom: 8px solid black;
+		background: red;
+		padding : 30px;
+		text-align: center;
+	}
+	
+	
+	.div01 footer{
+		background: pink;
+		padding: 20px;
+		border-top: 3px solid black;
+		text-align: center;
+	}
+	
+	.div02 {
+		display : flex;
+	}
+	
+	.div02 nav {
+		border-right : 7px solid black;
+		background: yellow;
+		width: 15%;
+		text-align: center;
+		line-height: 80px;
+	}
+	
+	.div02 nav h4{
+		margin: 0;
+	}
+	.div02 aside h4{
+		margin: 0;
+	}
+	
+	.sec h4{
+		margin-top: 30px;
+	}
+	
+	.div02 section {
+		background: green;
+		width: 60%;
+		text-align: center;
+	}
+	
+	.div02 aside{
+		border-left : 7px solid black;
+		background: yellow;
+		width: 25%;
+		text-align: center;
+		line-height: 80px;
+	}
+	
+	.sec span:nth-child(2) {
+		background: skyblue;
+	}
+	
+	.sec span:nth-child(3){
+		background: yellow;
+	}
+	.sec span:nth-child(4){
+		background: pink;
+		margin-bottom: 10px;
+	}
+	
+	
+	h1 {margin: 0;}
+	h2 {margin: 0;}
+	span  {
+		border: 1px solid black;
+		width : 80%;
+		margin : auto;
+		display: flex;
+		flex-flow: column;
+		margin-bottom: 30px;
+		text-align: center;
+		height: 30px;
+	}
+</style>
+
+
+
+</head>
+<body>
+
+	<div class="div01">
+		
+		<header><h1>&#60;header&#62;</h1></header>
+		
+			<div class="div02">
+				<nav><h4>nav</h4></nav>
+				<section class="sec">
+					<h4>section1</h4>
+						<span>header</span>
+						<span>article</span>
+						<span>footer</span>
+				</section>
+				<aside><h4>aside</h4></aside>
+			</div>
+		
+		<footer><h2>&#60;footer&#62;</h2></footer>
+		
+	</div>
+
+
+</body>
+</html>

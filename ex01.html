@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ex01</title>
+
+<style type="text/css">
+	.div01{
+		width : 50%; 
+		height: 616px;
+		margin : auto;
+		border : 5px solid black;
+		text-align: center;
+	}
+	
+	.div01 header{
+		background: red;
+		height: 120px;
+		font-size : 30px;
+		border-bottom: 8px solid black;
+		line-height: 120px;
+	}
+	
+	
+	.div02{
+		display: flex;
+		height : 360px;
+	}
+	
+	.div02 div:first-child {
+		background: yellow;
+		width: 25%;
+		font-size: 25px;
+		
+	}
+	.div02 div:nth-child(2) {
+		background: green;
+		width: 75%;
+		font-size: 25px;
+	}
+	
+	.div01 footer{
+		background: pink;
+		height: 120px;
+		border-top: 8px solid black;
+		font-size: 25px;
+		line-height : 120px;
+	}
+	
+	
+	
+	
+</style>
+
+</head>
+<body>
+	
+	<div class="div01">
+		<header><b id = "b">&#60;header&#62;</b></header>
+		
+		<div class="div02">
+			<div>
+				<nav>
+					<b>&#60;nav&#62;</b>
+				</nav>
+			</div>
+			<div>
+				<section>
+					<b>&#60;section&#62;</b>
+				</section>
+			</div>
+		</div>
+		
+		<footer><b>&#60;footer&#62;</b></footer>
+	</div>
+
+	
+
+</body>
+</html>
